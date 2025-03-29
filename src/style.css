@@ -50,6 +50,80 @@ header a {
     background: white;
 }
 
+
+footer {
+    color: white;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), 
+    url("https://portfoliocollection.com/wp-content/uploads/2020/02/VICFALL.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:900px){
     header {
         padding:60px 0;
