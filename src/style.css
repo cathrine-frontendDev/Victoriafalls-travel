@@ -70,6 +70,7 @@ footer h4 {
 footer p {
     font-weight: 400;
     font-size: 16px;
+    
     line-height: 24px;
 }
 
@@ -88,7 +89,12 @@ footer a {
     opacity: 0.7;
 }
 
-.grid {
+section {
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+.grid{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
     grid-gap: 64px;
