@@ -69,6 +69,11 @@ section.secondary {
     grid-gap: 64px;
 }
 
+.img-responsive {
+    width: 100%;
+    display:block;
+}
+
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
 }
@@ -82,15 +87,27 @@ section.secondary {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.embed {
+    margin-top: 22px;
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
 .card {
     background-color: white;
+}
+
+.card-header.grid {
+    grid-gap: 0;
 }
 
 .card-body {
     padding: 32px;
 }
 
-
+.instagram-embed.grid {
+    grid-gap: 25px;
+}
 .btn {
     display:block;
     color: white;
@@ -190,11 +207,6 @@ footer a {
     opacity: 0.7;
 }
 
-
-
-
-
-
 @media (max-width:900px){
     header {
         padding:60px 0;
@@ -211,5 +223,12 @@ footer a {
     }
     section {
         padding:30px;
+    }
+    .card-header img {
+        display: none;
+    }
+     
+    .embed {
+        aspect-ratio: 16 /9;
     }
 }
